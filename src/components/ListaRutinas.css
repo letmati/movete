@@ -1,0 +1,28 @@
+.container-rutinas {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.container-rutina {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #13213e;
+    border-radius: 2rem;
+    width: 49vw;
+}
+
+.container-rutina-link {
+    text-decoration: none;
+    color: white;
+}
+
+.container-rutina-imagen {
+    width: 6rem;
+}
+
+
+.container-rutina-nombre {
+   
+}
+

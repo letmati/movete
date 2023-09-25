@@ -1,0 +1,26 @@
+.header {
+    background-color: #040f25;
+    border-bottom: 1px solid #75756c;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.header-home {
+    font-size: 2rem;
+    margin: 0 1rem;
+    background: -webkit-linear-gradient(right, #0575e5, #00f260);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header-logout {
+    font-size: 1rem;
+    margin: 0 1rem;
+    color: #75756c;
+    font-family: 'Roboto';
+}

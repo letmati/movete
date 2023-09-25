@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@700&display=swap');
+
+header {
+    font-family: 'MuseoModerno';
+    font-size: 3rem;
+}
+
+p {
+    background: -webkit-linear-gradient(right, #0575e5, #00f260);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.auth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #040f25;
+    min-height: 100vh;
+}
+
+.form-auth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.input-login {
+    background-color: #13213e;
+    color: white;
+    border-radius: 2rem;
+    margin: 1vh 0;
+    width: 70vw;
+    border: none;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+}
+
+.boton-login {
+    background: linear-gradient(270deg,#0575e5, #00f260);
+    border: none;
+    border-radius: 2rem;
+    width: 80vw;
+    margin: 2rem 0;
+    padding: 1rem;
+    color: white;
+    font-size: 1rem;
+}
+
+.auth-google {
+    width: 60%; 
+    text-align: center; 
+    border-bottom: 1px solid #75756c; 
+    line-height: 2px;
+    margin: 1rem 0 2rem; 
+    color: #75756c;
+    font-size: 1rem;
+} 
+ 
+span { 
+    background: #040f25;
+    padding:0 5px; 
+}
+
+.google-logo {
+    width: 2rem;
+}
+
+.auth-opciones {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    color: #75756c;
+    margin-top: 3rem;
+}
+
+.auth-opciones-texto {
+    font-size: 1rem;
+}

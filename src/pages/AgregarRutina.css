@@ -1,0 +1,44 @@
+.agregar-rutina {
+    display: flex;
+    flex-direction: column;
+    background-color: #040f25;
+    height: 100vh;
+    color: white;
+}
+
+.form-nombre-rutina {
+    display: flex;
+}
+
+.input-select {
+    border-radius: 2rem;
+    padding: 
+}
+
+input {
+    
+    color: white;
+    border-radius: 2rem;
+    margin: 1vh 0;
+    width: 70vw;
+    border: none;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+}
+
+
+.form-rutina {
+    
+}
+
+input {
+    
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+h1 {
+    text-align: center;
+}
